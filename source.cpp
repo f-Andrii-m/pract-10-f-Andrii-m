@@ -36,7 +36,6 @@ int main() {
 
     int size = width * height;
 
-    // Зчитуємо всі пікселі
     vector<Pixel> pixels(size);
     in.read((char*)pixels.data(), size * sizeof(Pixel));
 
